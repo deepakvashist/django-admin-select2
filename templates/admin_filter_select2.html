@@ -1,0 +1,8 @@
+{% load i18n admin_static %}
+<link rel="stylesheet" type="text/css" href="{% static 'admin/css/widgets.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/admin_filter_select2.css' %}" />
+<div class="admin_filter_select2">
+    {{ spec.form.media }}
+    {{ spec.form.as_p }}
+</div>
+<script src="{% static 'js/admin_filter_select2.js' %}"></script>
